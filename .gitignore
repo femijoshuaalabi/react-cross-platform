@@ -1,9 +1,8 @@
 #build: web
-reactCrossPlatform--version--001/
-reactCrossPlatform/MainCore/web-build
-reactCrossPlatform/MainCore/.expo
-reactCrossPlatform/MainCore/_BaseCore/native-page/test
-reactCrossPlatform/MainCore/_BaseCore/native-page/assets
+ApplicationBasement/WebApplication/web-build
+ApplicationBasement/WebApplication/.expo
+ApplicationBasement/WebApplication/_BaseCore/native-page/test
+ApplicationBasement/WebApplication/_BaseCore/native-page/assets
 # Logs
 logs
 *.log

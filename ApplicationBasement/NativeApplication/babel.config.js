@@ -8,8 +8,6 @@ module.exports = function (api) {
                 {
                     alias: {
                         // define aliases to shorten the import paths
-                        'native/pages': './src/pages',
-                        'native/modules': './src/modules',
                     },
                     extensions: [
                         '.ios.ts',

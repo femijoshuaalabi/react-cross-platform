@@ -6,8 +6,7 @@ module.exports = override(
     babelInclude([path.resolve(__dirname, 'web')]),
     ...addBabelPresets('babel-preset-expo', '@babel/preset-react', '@babel/preset-env'),
     addWebpackExternals({
-        '@reactCrossPlatform/core': './_BaseCore/core',
-        '@reactCrossPlatform/page': './_BaseCore/page',
-        '@web/pages': './src/pages',
+        '@react/cross-core': './_CrossBasement/CrossCore',
+        '@react/cross-page': './_CrossBasement/CrossPage',
     }),
 );

@@ -1,7 +1,7 @@
 const createExpoWebpackConfigAsync = require('@expo/webpack-config');
 
 module.exports = async function (env, argv) {
-    let config = await createExpoWebpackConfigAsync(
+    const config = await createExpoWebpackConfigAsync(
         {
             ...env,
             // babel: {

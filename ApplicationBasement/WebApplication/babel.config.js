@@ -7,15 +7,12 @@ module.exports = function (api) {
                 'module-resolver',
                 {
                     alias: {
-                        '@reactCrossPlatform/core': './_BaseCore/core',
-                        '@reactCrossPlatform/page': './_BaseCore/page',
-                        '@reactCrossPlatform/native-page': './_BaseCore/native-page',
-                        '@reactCrossPlatform/web-page': './_BaseCore/web-page',
-                        '@web': './src',
+                        '@react/cross-core': './_CrossBasement/CrossCore',
+                        '@react/cross-page': './_CrossBasement/CrossPage',
                     },
                 },
             ],
-            ['react-native-reanimated/plugin'],
+            require.resolve('react-native-reanimated/plugin'),
         ],
     };
 };
