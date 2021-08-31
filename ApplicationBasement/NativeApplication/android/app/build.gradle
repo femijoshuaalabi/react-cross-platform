@@ -79,7 +79,7 @@ import com.android.build.OutputFile
  */
 
 project.ext.react = [
-    entryFile: "reactCrossPlatform/NativeCore/index.js",
+    entryFile: "crossplatform/NativeCore/index.js",
     enableHermes: true,  // clean and rebuild if changing
     root: "../../../../",
     // nodeExecutableAndArgs : ["/usr/local/bin/node"],
@@ -134,7 +134,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.reactCrossPlatform"
+        applicationId "com.crossplatform"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

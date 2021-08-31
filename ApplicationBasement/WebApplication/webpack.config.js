@@ -5,7 +5,7 @@ module.exports = async function (env, argv) {
         {
             ...env,
             // babel: {
-            //     dangerouslyAddModulePathsToTranspile: ['@reactCrossPlatform'],
+            //     dangerouslyAddModulePathsToTranspile: ['@crossplatform'],
             // },
         },
         argv,

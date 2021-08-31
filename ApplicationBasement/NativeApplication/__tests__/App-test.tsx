@@ -1,4 +1,4 @@
-import { App } from '@reactCrossPlatform/core/src/App';
+import { App } from '@crossplatform/core/src/App';
 import React from 'react';
 import { render } from 'react-native-testing-library';
 

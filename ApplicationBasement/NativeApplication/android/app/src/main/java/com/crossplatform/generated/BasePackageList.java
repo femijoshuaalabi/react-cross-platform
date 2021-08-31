@@ -1,4 +1,4 @@
-package com.reactCrossPlatform.generated;
+package com.crossplatform.generated;
 
 import java.util.Arrays;
 import java.util.List;
