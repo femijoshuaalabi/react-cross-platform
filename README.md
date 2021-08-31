@@ -1,0 +1,2 @@
+# reactCrossPlatform_core
+reactCrossPlatform main coordination

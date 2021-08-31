@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">reactCrossPlatform</string>
+     <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyAHs9oA7SpWg22JH6Cp9NGEnKgyB88oKRs</string>
+</resources>

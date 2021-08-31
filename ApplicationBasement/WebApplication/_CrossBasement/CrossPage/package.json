@@ -1,0 +1,16 @@
+{
+    "name": "@react/cross-page",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+        "format": "prettier --write --config ../../.prettierrc.js --ignore-path ../../.prettierignore '**/*.{js,json,js,ts,tsx}'",
+        "lint": "eslint --ext .js,.jsx,.ts,.tsx --ignore-path ../../.eslintignore ."
+    },
+    "peerDependencies": {
+        "react": "17.0.2",
+        "react-native": "0.64.0"
+    },
+    "eslintConfig": {
+        "extends": "../../../../.eslintrc.js"
+    }
+}

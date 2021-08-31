@@ -1,0 +1,27 @@
+.snap-container {
+    scroll-snap-type: x-mandatory;
+}
+
+.snap-item-start {
+    scroll-snap-align: start;
+}
+
+.compose_editor_container {
+    display: grid;
+}
+.compose_editor_container::after {
+    content: attr(data-replicated-value) ' ';
+    white-space: pre-wrap;
+    visibility: hidden;
+}
+.compose_editor_container > textarea {
+    resize: none;
+    overflow: hidden;
+}
+.compose_editor_container > textarea,
+.compose_editor_container::after {
+    border: 1px solid black;
+    padding: 0.5rem;
+    font: inherit;
+    grid-area: 1 / 1 / 2 / 2;
+}
