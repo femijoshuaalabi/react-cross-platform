@@ -6,3 +6,7 @@
 > For Web: yarn expo:start
 > For Native/Android: yarn app:android
 > For Native/ios: yarn app:ios
+
+## Credit
+
+credit to <b>femi</b>
